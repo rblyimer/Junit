@@ -1,12 +1,12 @@
 package junit;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Assertions;
 
 public class DivideMethodTest {
     @DisplayName("Test Divide() method")
     @Test
     void testDivide() {
-        assertEquals(.5, Calculations.Division(1,2));
+        Assertions.assertEquals(0.5, DivideMethod.Divide(1,2));
     }
 }
