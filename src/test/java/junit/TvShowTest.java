@@ -14,8 +14,8 @@ class TvShowTest {
     @DisplayName("Test Tvshowepisodes() method")
     @Test
     void getNumOfEpisodes() {
-        TvShow numOfEp = new TvShow("Home Economics", 22, "comedy");
-        assertEquals(22, numOfEp.getNumOfEpisodes());
+        TvShow numOfEpisodes = new TvShow("Home Economics", 22, "comedy");
+        assertEquals(22, numOfEpisodes.getNumOfEpisodes());
     }
 
     @DisplayName("Test TvshoweGenre() method")
